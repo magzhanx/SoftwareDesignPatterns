@@ -38,6 +38,7 @@ public class Main {
         System.out.println("Trip Price by Distance: $" + price);
 
 
+
         hotelFacade.displayAvailableRooms();
     }
 }
