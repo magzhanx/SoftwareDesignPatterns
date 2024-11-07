@@ -1,5 +1,5 @@
 public class PayPalAdapter implements PaymentProcessor {
-    private PayPalService payPalService;
+    private static PayPalService payPalService;
 
     public PayPalAdapter(PayPalService payPalService) {
         this.payPalService = payPalService;

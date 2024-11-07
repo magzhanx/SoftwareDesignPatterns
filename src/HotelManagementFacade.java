@@ -11,6 +11,7 @@ public class HotelManagementFacade {
     }
 
     public Booking createBooking(String customerName, Room room, boolean breakfastIncluded) {
+        room.setAvailable(false);
         return new Booking.Builder()
                 .setCustomerName(customerName)
                 .setRoom(room)
